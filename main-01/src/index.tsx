@@ -2,7 +2,7 @@ import { registerMicroApps, runAfterFirstMounted, setDefaultMountApp, start, ini
 import './index.less';
 
 // for angular subapp
-import 'zone.js';
+// import 'zone.js';
 
 /**
  * 主应用 **可以使用任意技术栈**
@@ -64,16 +64,19 @@ registerMicroApps(
     beforeLoad: [
       app => {
         console.log('[LifeCycle] before load %c%s', 'color: green;', app.name);
+        return Promise.resolve();
       },
     ],
     beforeMount: [
       app => {
         console.log('[LifeCycle] before mount %c%s', 'color: green;', app.name);
+        return Promise.resolve();
       },
     ],
     afterUnmount: [
       app => {
         console.log('[LifeCycle] after unmount %c%s', 'color: green;', app.name);
+        return Promise.resolve();
       },
     ],
   },
