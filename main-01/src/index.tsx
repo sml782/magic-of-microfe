@@ -38,13 +38,13 @@ registerMicroApps(
     //   // loader,
     //   activeRule: '/react15',
     // },
-    // {
-    //   name: 'vue',
-    //   entry: '//localhost:7101',
-    //   container: '#subapp-viewport',
-    //   // loader,
-    //   activeRule: '/vue',
-    // },
+    {
+      name: 'vue',
+      entry: '//localhost:8080',
+      container: '#subapp-viewport',
+      // loader,
+      activeRule: '/vue',
+    },
     // {
     //   name: 'angular9',
     //   entry: '//localhost:7103',
