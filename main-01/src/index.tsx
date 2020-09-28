@@ -11,9 +11,9 @@ import './index.less';
 import './render';
 // import render from './render/VueRender';
 
-// /**
-//  * Step1 初始化应用（可选）
-//  */
+/**
+ * Step1 初始化应用（可选）
+ */
 // render({ loading: true });
 
 // const loader = loading => render({ loading });
@@ -52,13 +52,13 @@ registerMicroApps(
     //   // loader,
     //   activeRule: '/angular9',
     // },
-    // {
-    //   name: 'purehtml',
-    //   entry: '//localhost:7104',
-    //   container: '#subapp-viewport',
-    //   // loader,
-    //   activeRule: '/purehtml',
-    // },
+    {
+      name: 'purehtml',
+      entry: '//localhost:7104',
+      container: '#subapp-viewport',
+      // loader,
+      activeRule: '/purehtml',
+    },
   ],
   {
     beforeLoad: [
