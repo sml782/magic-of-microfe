@@ -1,0 +1,23 @@
+{
+  "name": "magic-of-microfe",
+  "version": "1.0.0",
+  "description": "微前端实践",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sml782/magic-of-microfe.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sml782/magic-of-microfe/issues"
+  },
+  "homepage": "https://github.com/sml782/magic-of-microfe#readme",
+  "dependencies": {
+    "qiankun": "^2.0.26"
+  }
+}
